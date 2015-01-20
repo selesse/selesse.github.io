@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Controlling Verbosity: A Proof of Concept"
-date:   2013-01-23 21:27:00
+date:   2014-01-19 22:45:00
 categories: learning verbosity
 ---
 
