@@ -1,3 +1,5 @@
+# Section 1
+
 ### Introduction
 
 Today, we're going to look at converting a `build.xml` (Ant) file into a
@@ -18,7 +20,7 @@ within these files are substituted by values configured in a
 The Git repository to go along with this post can be found
 [here](https://github.com/selesse/gradle-ant).
 
-END_SECTION
+# Section 2
 
 ### Setup
 
@@ -94,7 +96,7 @@ That being said, the script shared above doesn't even cover this scenario.
 I've hard-coded the `.properties` file to be `some.properties` for the sake
 of simplicity.
 
-END_SECTION
+# Section 3
 
 ### Problem
 
@@ -117,7 +119,7 @@ While these reasons aren't necessarily deal breakers, let's see how a more
 sophisticated build system like [Gradle](http://gradle.org) would handle this
 scenario.
 
-END_SECTION
+# Section 4
 
 ### Solution
 

@@ -1,3 +1,5 @@
+# Section 1
+
 ### Introduction
 
 Today, we're going to convert an Ant target to a Gradle task.
@@ -8,7 +10,7 @@ generates files based on some `.properties`.
 The Git repository to go along with this post can be found
 [here](https://github.com/selesse/gradle-ant).
 
-END_SECTION
+# Section 2
 
 ### Setup
 
@@ -37,7 +39,7 @@ The actual `build.xml` that was converted made use of variables. I've
 omitted them from this sample for brevity. It also had a total of 8 files
 rather than 2, and one file had up to 20 properties being replaced.
 
-END_SECTION
+# Section 3
 
 ### Problem
 
@@ -47,7 +49,7 @@ END_SECTION
    Even if there were no changes to either the input or the output,
    we're still going to overwrite files.
 
-END_SECTION
+# Section 4
 
 ### Solution
 
