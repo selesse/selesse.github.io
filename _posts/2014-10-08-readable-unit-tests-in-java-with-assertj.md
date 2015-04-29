@@ -3,6 +3,7 @@ layout: post
 title:  "Readable Unit Tests in Java with AssertJ"
 date: 2014-10-08 20:31:00
 categories: java assertj testing
+redirect_from: '/blog/11/'
 ---
 
 A common criticism of JUnit assertions is that the order of arguments in the

@@ -3,6 +3,7 @@ layout: post
 title:  "Vim, Command-T and Git"
 date: 2012-12-06 22:35:00
 categories: vim
+redirect_from: '/blog/1/'
 ---
 
 One thing I've noticed a few developers do when using vim is to exit vim

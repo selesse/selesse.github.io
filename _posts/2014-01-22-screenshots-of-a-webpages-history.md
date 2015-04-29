@@ -3,6 +3,7 @@ layout: post
 title:  "Screenshots of a Webpage's History"
 date:   2014-01-22 22:49:00
 categories: git bash
+redirect_from: '/blog/7/'
 ---
 
 This entire post will be about using short scripts to automate the task of

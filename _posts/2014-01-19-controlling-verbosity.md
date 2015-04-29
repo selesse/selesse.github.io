@@ -3,6 +3,7 @@ layout: post
 title:  "Controlling Verbosity: A Proof of Concept"
 date:   2014-01-19 22:45:00
 categories: learning verbosity
+redirect_from: '/blog/6/'
 ---
 
 <script>

@@ -3,6 +3,7 @@ layout: post
 title:  "The Gradle Application Plugin and Fast Testing"
 date: 2014-09-28 22:29:00
 categories: gradle
+redirect_from: '/blog/10/'
 ---
 
 If you're developing a Java application, the [Gradle application plugin][1] is

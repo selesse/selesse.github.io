@@ -3,6 +3,7 @@ layout: post
 title:  "IntelliJ IDEA, Live Templates and SLF4J"
 date: 2014-09-08 08:17:00
 categories: idea intellij
+redirect_from: '/blog/9/'
 ---
 
 I've only recently started appreciating (and using) logging frameworks. I

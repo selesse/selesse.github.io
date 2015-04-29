@@ -3,6 +3,7 @@ layout: post
 title:  "Creating a Java Lint Tool"
 date:   2013-08-19 22:19:00
 categories: java lint
+redirect_from: '/blog/3/'
 ---
 
 Like many other programmers, I'm always looking for excuses to code

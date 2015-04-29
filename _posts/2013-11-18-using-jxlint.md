@@ -3,6 +3,7 @@ layout: post
 title:  "Using jxlint"
 date:   2013-11-18 18:50:00
 categories: java lint jxlint
+redirect_from: '/blog/4/'
 ---
 
 As referenced in [my previous blog post](/blog/3/), I recently created a

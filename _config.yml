@@ -8,6 +8,8 @@ url: "http://selesse.com" # the base hostname & protocol for your site
 twitter_username: selesse
 github_username:  selesse
 permalink: /:year/:month/:day/:title.html
+gems:
+    - jekyll-redirect-from
 
 # Build settings
 markdown: redcarpet

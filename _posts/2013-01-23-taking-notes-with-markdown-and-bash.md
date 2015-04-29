@@ -3,6 +3,7 @@ layout: post
 title:  "Taking Notes with Markdown and Bash"
 date:   2013-01-23 21:27:00
 categories: markdown bash
+redirect_from: '/blog/2/'
 ---
 
 I'm taking an anthropology class this semester (read: a class where you need
