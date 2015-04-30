@@ -111,12 +111,8 @@ This solution addresses all 3 previous criticisms.
 
 #### Gradle
 
-<div class="center">
-    ![Gradle task regeneration](/img/8-gradle.png)
-</div>
+![Gradle task regeneration](/assets/8-gradle.png)
 
 #### Ant
 
-<div class="center">
-    ![Ant target results](/img/8-ant.png)
-</div>
+![Ant target results](/assets/8-ant.png)

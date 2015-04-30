@@ -208,9 +208,7 @@ configs, and we'll be able to see when every config files gets generated.
   }
 </style>
 
-<div class="center">
-    ![Gradle task regeneration](/img/8-gradle.png)
-</div>
+![Gradle task regeneration](/assets/8-gradle.png)
 
 The first time we run `createConfigs`, both configuration files are generated
 since they don't yet exist. The second time we run it, Gradle knows that the
@@ -223,8 +221,6 @@ get regenerated! All the issues we identified have been addressed.
 
 The Ant version is a little less inspired:
 
-<div class="center">
-    ![Ant target results](/img/8-ant.png)
-</div>
+![Ant target results](/assets/8-ant.png)
 
 As suggested by Ant's output, the files are copied and replaced no matter what.

@@ -159,13 +159,8 @@ for example: `./gradlew createConfigLog4j.properties`.
   }
 </style>
 
-<div class="center">
-    ![Gradle task regeneration](/img/8-gradle.png)
-</div>
+![Gradle task regeneration](/assets/8-gradle.png)
 
 The Ant version is a little less inspired:
 
-<div class="center">
-    ![Ant target results](/img/8-ant.png)
-</div>
-
+![Ant target results](/assets/8-ant.png)
