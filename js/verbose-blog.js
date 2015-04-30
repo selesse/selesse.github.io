@@ -1,6 +1,51 @@
 /*
  * This is write-only code. I feel awful for having written it.
  * I apologize to future me and anyone else who happens to stumble upon this.
+ *
+ * In case anybody ever needs to understand how this works, buckle up:
+ *
+ * The JavaScript assumes multiple consecutively dumped documents structured
+ * like so:
+ *
+ *     <!-- Conceptually, this is document 1 -->
+ *     <h1 id="section-1">Section 1</h1>
+ *
+ *     <!-- ... meaningful content, composed of multiple tags ... -->
+ *
+ *     <h1 id="section-2">Section 2</h1>
+ *
+ *     <h1 id="section-n">Section n</h1>
+ *
+ *     <!-- Conceptually, this is document 2 -->
+ *     <h1 id="section-1">Section 1</h1>
+ *
+ *     <!-- ... meaningful content, composed of multiple tags ... -->
+ *
+ *     <h1 id="section-2">Section 2</h1>
+ *
+ * *THEN*, the code rearranges it (via dom manipulation, obviously)
+ * so all the meaningful content is rearranged to look like this:
+ *
+ *      <h1 id="section-1">Section 1</h1>
+ *
+ *      <!-- this is document 1's first section -->
+ *      <!-- this is document 2's first section -->
+ *      <!-- ... --->
+ *      <!-- this is document n's first section -->
+ *
+ *      <h1 id="section-2">Section 2</h1>
+ *      <!-- this is document 1's second section -->
+ *      <!-- this is document 2's second section -->
+ *      <!-- ... --->
+ *      <!-- this is document n's second section -->
+ *
+ * OK, cool. Now the sections are together, so I can just hide and show the
+ * appropriate sections based on the slider. Before doing that, I need to
+ * actually create the sliders. They get inserted before all of the sections.
+ *
+ * Then, to determine which chunks to hide/show, we assume that every section
+ * starts with a <h3> tag, so the entire section is segmented into chunks.
+ *
  */
 (function() {
     var content = {};
