@@ -12,18 +12,18 @@ redirect_from: '/blog/12/'
 
 One of the things I've been interested in for a long time is the notion of
 efficiency. If I purchase a video game for $60 but only play 1 hour, how
-"efficient" was my purchase? We can then define the efficiency of the purchase
-as being `price / hours = $60 / hr`. If I play for 10 hours, my
-efficiency becomes `60 / 10 = $6 / hr`, which is a much more reasonable amount
-to pay.
+"efficient" was my purchase? We can define the efficiency of the purchase as
+being `price / hours = $60 / hr`. If I play for 10 hours, my efficiency
+becomes `60 / 10 = $6 / hr`, which is a much more reasonable amount to pay.
 
 It's pretty interesting to start thinking of everything from the perspective
 of efficiency.  If I go to a bar and spend $30, and I go for 3 hours, my
 efficiency is $10/hour. Similarly, if I buy a treadmill for $1500 and only use
 it 20 times, it's as if I've paid 1500 / 20 = $75 per use. Are these numbers
 good or bad? At what point has my video game, bar visit, and treadmill
-purchase become "worth it"? This post explores the question and suggests an
-answer.
+purchase become "worth it"? This post explores the question and suggests a
+mathematical answer. Note that this is just a fun way to think about things,
+it's not something I use to make daily decisions.
 
 The equation for efficiency can be represented as \\( y = \frac c x \\), where
 `y` represents the efficiency, `c` is the money spent, and `x` is the amount
