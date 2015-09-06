@@ -158,13 +158,6 @@ we are immune to changes in file renames.
 Once that's done, we're ready to run `./grab-all-screenshots.sh`. These files
 should appear in the `screenshots` folder (with different shas):
 
-<!-- oh yeah, I went there. -->
-<style type="text/css">
-  img {
-    border: 1px solid black;
-  }
-</style>
-
 ### 1-484f5e2421132e52337b8306c0cde86858472489.jpg
 
 ![First screenshot]({{ site.baseurl }}/assets/7-1.jpg)
