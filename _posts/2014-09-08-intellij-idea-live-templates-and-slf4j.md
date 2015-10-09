@@ -59,16 +59,10 @@ look like this:
 
 ![Live template for SLF4J][4]
 
-Now, if I just start typing `slf4j`:
+Now, see it in action!
 
-![SLF4J Shows Up In A Class][5]
+![SLF4J Demo Gif][5]
 
-And if I press tab:
-
-![SLF4J Logger Gets Expanded][6]
-
-The imports are automatically added, so I can start using the logger right
-away!
 
 This isn't anything revolutionary, it's just a neat feature I discovered and
 wanted to share. It made me realize I should spend a bit more time learning my
@@ -78,5 +72,4 @@ IDE.
 [2]: http://www.jetbrains.com/idea/webhelp/live-templates.html "Live Templates" 
 [3]: {{ site.baseurl }}/assets/9-live-templates.png "Live Template Menu"
 [4]: {{ site.baseurl }}/assets/9-slf4j-template.png "SLF4J Live Template Settings"
-[5]: {{ site.baseurl }}/assets/9-slf4j-in-class.png "SLF4J Shows Up In A Class"
-[6]: {{ site.baseurl }}/assets/9-slf4j-expanded.png "SLF4J Logger Gets Expanded"
+[5]: {{ site.baseurl }}/assets/9-slf4j.gif "SLF4J live template expansion demo"
