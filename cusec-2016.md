@@ -12,7 +12,7 @@ permalink: /cusec/
 * [Elasticsearch, Logstash, Kibana (ELK) (Modern logging)](https://www.youtube.com/watch?v=Kqs7UcCJquM)
 * [Git (Source control)](https://git-scm.com/book/en/v2)
 
-### Improving
+### Interesting Reads
 
 * [Design patterns (book)](https://en.wikipedia.org/wiki/Design_Patterns)
 * [Continuous Delivery (book)](http://www.amazon.ca/dp/0321601912?tag=contindelive-20)
