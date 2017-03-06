@@ -4,9 +4,10 @@ title: About
 permalink: /about/
 ---
 
-my name is alex. hi.
+I gave a talk at [CUSEC 2016][cusec 2016]: ["Modern Software Engineering In
+Practice"][cusec talk]. I also provided a
+[recommended reading list][cusec reading list] to accompany the talk.
 
-* [twitter](http://twitter.com/selesse)
-* [github](http://github.com/selesse)
-* [my solo folding@home team](http://fah-web.stanford.edu/cgi-bin/main.py?qtype=teampage&teamnum=220732)
-  (the folding@home team does [amazing work](http://folding.stanford.edu/) - check it out)
+[cusec 2016]: http://2016.cusec.net/
+[cusec talk]: https://www.youtube.com/watch?v=CPkOy0MNFv0
+[cusec reading list]: /cusec/
